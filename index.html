@@ -32,6 +32,10 @@
        font-weight: normal;
        font-style: normal;
     }
+    #form{
+      background-image: url(assets/bg.jpg);
+      background-size: cover;
+    }
     </style>
 </head>
 <body class="manrope">
@@ -70,7 +74,7 @@
           </div>
         </div>
         <div class="mx-auto w-[90%] lg:w-1/2 mt-6 lg:mt-0">
-          <img class=" mx-auto lg:mt-0" src="assets/Rectangle.png" alt="">
+          <img class=" mx-auto lg:mt-0 lg:mr-0" src="assets/Rectangle.png" alt="">
         </div>
       </div>
       <!-- NUMERS NUMBERS -->
@@ -145,12 +149,20 @@
       </div>
     </section>
   <!-- FORM FORM FORM FORM -->
-    <section class="text-center">
-      <button class="px-4 py-2 font-bold mt-8 bg-[#abef5f33] rounded-3xl">let's Connect</button>
-      <h2 class="text-5xl font-bold sm:w-[70%] mx-auto">Let’s Discuss Next Project</h2>
-      <p class="font-medium lg:w-[60%] mx-auto text-gray-500 my-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-      <div class="grid"></div>
-
+    <section id="form" class="text-center py-24">
+      <div class="w-[90%] max-w-screen-lg mx-auto">
+        <button class="px-4 py-2 font-bold mt-8 bg-[#abef5f33] rounded-3xl">let's Connect</button>
+        <h2 class="text-5xl font-extrabold sm:w-[70%] mx-auto">Let’s Discuss Next Project</h2>
+        <p class="font-medium lg:w-[60%] mx-auto text-gray-500 my-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-500">
+          <input class="p-5 rounded-[64px]" type="text" placeholder="First Name*">
+          <input class="p-5 rounded-[64px]" type="text" placeholder="Last Name*">
+          <input class="p-5 rounded-[64px]" type="text" placeholder="Phone Number*">
+          <input class="p-5 rounded-[64px]" type="text" placeholder="Email Number*">
+          <input class="p-5 h-52 rounded-[34px] md:col-span-2" type="text" placeholder="Write your message here">
+        </div>
+        <button class="bg-[#ABEF5F] w-full rounded-3xl text-black py-4 px-5 mt-8">Send Mail</button>
+      </div>
     </section>
 
   <!-- FOOTER FOOTER FOOTER -->
