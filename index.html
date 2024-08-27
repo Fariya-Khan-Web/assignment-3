@@ -46,21 +46,26 @@
             <img class="bg-[#ABEF5F] text-black rounded-[50%] w-9 h-12" src="assets/arrow-black.png" alt="">
             <h4 class="font-extrabold text-4xl ml-3">Rinterio</h4>
           </div>
-          <ul class="flex text-gray-500">
-            <li class="font-bold text-black"><a href="">Home</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Blogs</a></li>
-            <li><a href="">Contact Us</a></li>
-          </ul>
-          <div class="flex">
-            <img class="rounded-[50%] w-7 h-12 bg-white" src="assets/search.png" alt="">
-            <img class="rounded-[50%] w-7 h-12 bg-white mx-3" src="assets/cart.png" alt="">
-            <button class="py-3 px-6 place-content-center w-56 font-extrabold text-xl rounded-3xl text-black bg-[#ABEF5F] mx-auto flex">
-              <div>Book Consult</div>
-              <img class="bg-black rounded-[50%] w-7 ml-2" src="assets/arrow.png" alt="">
-          </button>
+          <div class="hidden lg:block">
+            <ul class="flex pt-3 text-gray-500">
+              <li class="font-bold text-black"><a href="">Home</a></li>
+              <li class="px-4"><a href="">Service</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li class="px-4"><a href="">Blogs</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
           </div>
+          <div class="flex md:-mr-56 lg:mr-0">
+            <img class="rounded-[50%] w-7 h-12 bg-white hidden md:block" src="assets/search.png" alt="">
+            <img class="rounded-[50%] w-7 h-12 bg-white mx-3  hidden md:block" src="assets/cart.png" alt="">
+            <div class="hidden md:block">
+              <button class="py-3 px-6 place-content-center w-56 font-extrabold text-xl rounded-3xl text-black bg-[#ABEF5F] mx-auto flex">
+                <div>Book Consult</div>
+                <img class="bg-black rounded-[50%] w-7 ml-2" src="assets/arrow.png" alt="">
+              </button>
+            </div>
+          </div>
+          <img class="bg-white rounded-[50%] w-10 lg:hidden" src="assets/menu.png" alt="">
 
         </nav>
         <main class="max-w-screen-xl w-[90%] mx-auto">
@@ -242,7 +247,7 @@
           <div class="md:-mt-10">
             <div class="bg-white rounded-xl p-6 my-4">
               <div class="flex">
-                <img class="rounded-[50%]" src="../module-14/assets/images/client.png" alt="">
+                <img class="rounded-[50%]" src="assets/clients/client.png" alt="">
                 <div class="ml-6">
                   <h4 class="text-xl font-bold">Kakashi Hatake</h4>
                   <p class="text-gray-500 text-left">27-08-23</p>
@@ -252,7 +257,7 @@
             </div>
             <div class="bg-white rounded-xl p-6 my-4">
               <div class="flex">
-                <img class="rounded-[50%] w-14" src="../../milestone-2/assignment-2/assets/images/trainer1.png" alt="">
+                <img class="rounded-[50%] w-14" src="assets/clients/trainer1.png" alt="">
                 <div class="ml-6">
                   <h4 class="text-xl font-bold">Kurama-09</h4>
                   <p class="text-gray-500 text-left">04-08-23</p>
@@ -264,7 +269,7 @@
           <div>
             <div class="bg-white rounded-xl p-6 my-4">
               <div class="flex">
-                <img class="rounded-[50%] w-14" src="../../milestone-2/assignment-2/assets/images/trainer2.png" alt="">
+                <img class="rounded-[50%] w-14" src="assets/clients/trainer2.png" alt="">
                 <div class="ml-6">
                   <h4 class="text-xl font-bold">Minato Namikage</h4>
                   <p class="text-gray-500 text-left">08-10-16</p>
@@ -274,7 +279,7 @@
             </div>
             <div class="bg-white rounded-xl p-6 my-4">
               <div class="flex">
-                <img class="rounded-[50%] w-14" src="../../milestone-2/assignment-2/assets/images/trainer3.png" alt="">
+                <img class="rounded-[50%] w-14" src="assets/clients/trainer3.png" alt="">
                 <div class="ml-6">
                   <h4 class="text-xl font-bold">Zoro</h4>
                   <p class="text-gray-500 text-left">27-08-24</p>
@@ -286,7 +291,7 @@
           <div class="md:-mt-10 hidden md:block">
             <div class="bg-white rounded-xl p-6 my-4">
               <div class="flex">
-                <img class="rounded-[50%] w-14" src="../../milestone-2/assignment-2/assets/images/trainer5.png" alt="">
+                <img class="rounded-[50%] w-14" src="assets/clients/trainer5.png" alt="">
                 <div class="ml-6">
                   <h4 class="text-xl font-bold">Itachi Uchiha</h4>
                   <p class="text-gray-500 text-left">28-08-20</p>
@@ -296,7 +301,7 @@
             </div>
             <div class="bg-white rounded-xl p-6 my-4">
               <div class="flex">
-                <img class="rounded-[50%] w-14" src="../../milestone-2/assignment-2/assets/images/trainer4.png" alt="">
+                <img class="rounded-[50%] w-14" src="assets/clients/trainer4.png" alt="">
                 <div class="ml-6">
                   <h4 class="text-xl font-bold">Rin Dead</h4>
                   <p class="text-gray-500 text-left">13-12-15</p>
